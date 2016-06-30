@@ -4,7 +4,7 @@ void setup () {
 
 void draw (){
  
-  float precent = map(mouseX,0,width,0,1); // precent var changes from 0 - 1 with mouse movement
+  float precent = map(mouseX,0,width,0,1); // precent var changes from 0 - 1 with mouse movement, Do not understand all the numbers
   background(0); // adds a black background 
   translate(width/2,height/2); // centers the shape to the screen
   stroke(255); // white line
